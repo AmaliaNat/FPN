@@ -1,0 +1,221 @@
+@charset "utf-8";
+@import url("Montserrat_ExtraBold/stylesheet.css");
+@import url("JosefinSans_Regular/stylesheet.css");
+@import url("AnyConv_com_Montserrat_Light/stylesheet.css");
+.container.b{
+    align-items: flex-start;
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;   
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height:500px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+a{
+	padding:0px;
+	margin:0px;
+	
+}
+
+.intro{
+    width: 100%;
+    background-color: rgba(239,239,239,1.00);
+    text-align: center;
+    padding-top: 150px;
+}
+
+.wel{
+    padding: 50px 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Montserrat ExtraBold";
+}
+
+.desc{
+    padding-top: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(80,80,80,1.00);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+.event{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	padding:10px;
+}
+
+.post{
+    width: 33.33%;
+    float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+
+}
+
+.post.f{
+	display:block;
+	min-height:560px;
+	background-size:contain;
+	background-repeat: no-repeat;
+	
+}
+
+
+.evheader{
+    text-align: center;
+    padding: 10px;
+	padding-bottom: 30px;
+    font-size: x-large;
+    font-family: "Montserrat ExtraBold";
+    color: rgba(77,77,77,1.00);
+}
+
+
+.highlight{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	padding:100px 50px;
+	width:100%;
+}
+
+.hi-word{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,1.00);
+    padding: 50px;
+    text-align: left;
+    height: 400px;
+    width: 50%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: large;
+    color: rgba(98,98,98,1.00);
+}
+
+.post.a{
+    width: 50%;
+	height:400px;
+
+	min-height:400px;
+	overflow:hidden;
+}
+
+img{
+	max-width:100%;
+max-height:100%;
+}
+
+.post:hover{
+   	  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.post.b{
+    width: 50%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+	background-size:cover;
+    background-image: url(../../../../Pictures/ERud1xbU0AA0QGt.jpg);	
+}
+
+.post.c{
+    width: 50%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../../Pictures/green-pine-tree-leaves-192136.jpg);	
+}
+
+.border{
+	width:100%;
+	min-height:50px;
+	display:block;
+	background-color:rgba(44,20,60,1.00);
+}

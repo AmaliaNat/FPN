@@ -1,0 +1,325 @@
+@charset "utf-8";
+@import url("Montserrat_ExtraBold/stylesheet.css");
+@import url("Anonymous/stylesheet.css");
+@import url("DINCondensed_Bold/stylesheet.css");
+@import url("AnyConv_com_GlacialIndifference_Regular/stylesheet.css");
+@import url("Montserrat_ExtraBold/stylesheet.css");
+@import url("Montserrat_ExtraBold/stylesheet.css");
+@import url("Montserrat_ExtraBold/stylesheet.css");
+@import url("JosefinSans_Regular/stylesheet.css");
+@import url("Montserrat_ExtraBold/stylesheet.css");
+@import url("AnyConv_com_Montserrat_Light/stylesheet.css");
+@import url("Aileron_Regular/stylesheet.css");
+
+.container.b{
+    align-items: flex-start;
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;   
+}
+
+
+.au-header{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.wrap-ab{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	padding:50px;
+}
+
+
+.desc{
+    width: 100%;
+	padding:100px 20px;
+	padding-bottom:0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+
+}
+
+.desc-img{
+    float: left;
+    width: 50%;
+ 
+}
+.small-header{
+    color: rgba(0,0,0,1.00);
+    font-size: 40px;
+    font-family: "Montserrat ExtraBold";
+}
+
+.desc-waw{
+    padding-top: 20px;
+    color: rgba(79,79,79,1.00);
+    font-size: large;
+    text-align: left;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.about{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat ExtraBold";	
+}
+
+.motto{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    color: rgba(65,65,65,0.8);
+    font-weight: 500;
+    font-size: large;
+    font-style: italic;
+	letter-spacing: 2px;
+
+}
+
+.about-header{
+    font-family: "Montserrat ExtraBold";
+    padding-bottom: 5px;
+    color: rgba(156,155,10,1.00);
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.about-desc{
+    font-family: source-sans-pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: medium;
+}
+.misi{
+    width: 70%;
+    float: left;
+    border-right-style: solid;
+    border-right-color: rgba(140,140,140,0.50);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.visi{
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.q{
+	width:100%;
+	padding:0 50px;
+}
+
+.kl-img{
+    float: left;
+    width: 25%;
+	display:block;
+    background-image: url(../../../../Pictures/icon/human.png);
+    min-height:  200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quote{
+    float: left;
+    width: 75%;
+    display: block;
+    background-image: url(../image/fpn.png);
+    min-height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: medium;
+}
+
+.kl-word{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    color: rgba(87,87,87,1.00);
+    font-family: source-sans-pro;
+    font-style: italic;
+    font-weight: 300;
+}
+.border{
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(158,158,158,0.5);
+	padding-top:30px;
+}
+
+.chart{
+	width:100%;
+	padding:20px 50px;
+}
+.small-header.a{
+    font-size: x-large;
+}
+
+.sd{
+	width:100%;
+	padding:20px 50px;
+	
+}
+
+.sd-box{
+    border-radius: 10px;
+    padding: 0 5px 30px 0;
+    overflow: hidden;
+    background-color: rgba(250,194,63,1.00);
+}
+
+.search-wrap{
+    width: 100%;
+    padding: 30px;
+	padding-bottom:60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.search-box{
+    width: 60%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    float: left;
+    border-style: none;
+    padding-left: 10px;
+    font-family: vera-sans;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+#dpt{
+	display:none;
+}
+
+.search-btn-wrap{
+    width: 40%;
+    float: left;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+}
+
+.search-btn{
+    width: 100px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 3px 0;
+    font-family: droid-sans-mono;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.search-btn:hover{
+    background-color: rgba(172,172,172,1.00);	
+}
+
+.searchby{
+	width:100%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgba(190,190,190,1.00);
+    border-radius: 50%;
+    display: inline-block;
+	float:left;
+}
+.second{
+	padding-left:100px;
+}
+.opt{
+    display: inline-block;
+    font-size: medium;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(66,66,66,1.00);
+	float:left;
+}
+
+.staff-wrap{
+	width:100%;
+	max-height:400px;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.staff{
+    width: 100%;
+    overflow: auto;
+    padding: 20px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.pic{
+	float:left;
+	width:10%;
+}
+
+.details{
+    width: 90%;
+    padding: 10px 20px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Aileron Regular";
+    font-style: normal;
+    font-weight: 500;
+    font-size: large;
+    color: #454545;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}

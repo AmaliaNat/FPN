@@ -1,0 +1,224 @@
+@charset "utf-8";
+@import url("JosefinSans_Regular/stylesheet.css");
+
+.container.b{
+    align-items: flex-start;
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;   
+}
+
+.wrap-link{
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:hidden;
+	padding:10px;
+	padding-top:0px;
+	padding-left:0px;
+	
+}
+
+	body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    border-left: medium solid rgba(120,120,120,1.00);
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.sp{
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 5px 5px;
+
+}
+
+th.id{
+    border-left-style: solid;
+    border-left-color: #9B9B9B;
+    color: grey;
+}
+
+th.id:hover{
+	background-color: white;
+}
+.wrap-info{
+	padding:20px;
+}
+
+
+.header{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: x-large;
+    font-family: "JosefinSans Regular";
+    background-color: #DFDFDF;
+}
+
+.mid{
+	
+	display:block;
+	width:100%;
+	padding:10px;
+}
+
+.wrap-box{
+	min-width:1000px;
+	
+	padding-top:20px;
+	padding-left:5px;
+	padding-right:5px;
+	overflow:hidden;
+	min-height:1000px;
+}
+
+.c{
+	padding:10px;
+	background-color:#ffffff;
+	width:100%;
+}
+
+.wrap-search{
+	width:1100px;
+	padding: 10px 20px;
+}
+
+.search-box{
+	width:800px;
+	padding:10px 5px;
+	float:left;
+}
+
+.sbmt{
+    padding: 13px 5px;
+    width: 100px;
+    background-color: #F1B24B;
+    border-style:none;
+    color: #040404;
+    font-family: "JosefinSans Regular";
+
+}
+
+.sbmt:hover{
+    background-color: #CF973C;
+}
+
+
+table.a{
+    width: 100%;
+	padding:20px;
+	padding-top:20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	overflow:auto;
+	background-color:#ffffff;
+	
+}
+
+th.head{
+	background-color: #f1b24b;
+	min-width:600px;
+}
+th{
+    padding: 10px;
+    border-right-color: #FFFFFF;
+    border-right-style: solid;
+
+}
+
+th.a{
+    background-color: #d68438;	
+	min-width:100px;
+}
+
+tr:nth-child(even){
+	background-color:#e1e1e1;
+}
+
+tr:nth-child(even):hover{
+	background-color:#878787;
+}
+
+tr:nth-child(odd){
+	background-color:white;
+}
+tr:nth-child(odd):hover{
+	background-color:#878787;
+}
+
+
+.btn{
+    border-style: none;
+    background-color: none;
+    list-style: none;
+    padding: 0px;
+    font-weight: bold;
+	background:none;
+}
+
+.btn:hover{
+	color:blue;
+}

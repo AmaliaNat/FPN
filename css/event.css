@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import url("ornitons_serial_bold/stylesheet.css");
+@import url("Anonymous/stylesheet.css");
+@import url("DINCondensed_Bold/stylesheet.css");
+@import url("GothicA1_Black/stylesheet.css");
+@import url("GothicA1_Light/stylesheet.css");
+
+
+.container.c{
+	padding:0;
+	align-items: flex-start;
+	background-color: #EFEFEF;
+}
+
+
+.wrap{
+	width:100%;
+	padding:50px;
+	padding-bottom:50px;
+	
+}
+.bg{
+	background-color:white;
+}
+.header{
+    font-family: "GothicA1 Black";
+    font-size: 30px;
+    text-align: left;
+    padding: 50px 40px 40px 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #FF8400;
+}
+.date{
+    width: 100%;
+    text-align: left;
+    font-size: small;
+    font-family: "GothicA1 Light";
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px 0;
+    ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(255,0,4,1.00);
+}
+
+.desc{
+    width: 100%;
+    padding: 0px 0px;
+    font-family: lato;
+    font-size: medium;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(66,66,66,1.00);
+}
+
+
+table{
+    padding: 0 40px
+}
+
+.sp-wrap{
+	
+	width:100%;
+	    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding:40px 10px;
+}
+
+
+
+img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}

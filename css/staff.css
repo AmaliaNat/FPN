@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url("Aileron_Regular/stylesheet.css");
+@import url("GothicA1_Black/stylesheet.css");
+@import url("GothicA1_Light/stylesheet.css");
+
+.container.b{
+    align-items: flex-start;
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;   
+}
+
+.wrap{
+	width:100%;
+	padding:20px;
+}
+
+.bg{
+    width: 100%;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.top{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: thick solid #2251b2;
+    height: 145px;
+    background-color: #2251B2;
+}
+
+.img-wrap{
+    width: 10%;
+	display:block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 5px;
+    border-style: solid;
+    border-color: #2251b2;
+	float:left;
+}
+
+.name-wrap{
+    float: left;
+    display: block;
+    padding: 50px 20px;
+    width: 90%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "GothicA1 Black";
+    font-size: x-large;
+    color: #FFFFFF;
+}
+
+.position{
+    font-family: "GothicA1 Light";	
+}
+
+.bottom{
+    width: 100%;
+    padding: 20px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	background-color:white;
+}
+
+.wrap-contact{
+    background-color: #9D9D9D;
+    border-radius: 15px;
+    width: 50%;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.line{
+	width:100%;
+	display:inline-block;
+}
+
+.icon-wrap{
+	float:left;
+	width:10%;
+}
+
+.contact{
+    float: left;
+    padding: 10px 0;
+    width: 90%;
+    color: #FFFFFF;
+    font-family: "Aileron Regular";
+}
+
+.details{
+	padding:50px 10px;
+}
+
+.litle-header{
+    width: 50%;
+    font-family: "GothicA1 Black";
+    border-bottom-style: solid;
+    border-bottom-color: #6C6C6C;
+    color: #2251b2;
+    font-size: large;
+}
+
+.info{
+    width: 50%;
+    font-family: "GothicA1 Light";
+}

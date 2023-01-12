@@ -1,0 +1,199 @@
+@charset "utf-8";
+@import url("Aileron_Heavy/stylesheet.css");
+@import url("Aileron_Regular/stylesheet.css");
+@import url("Montserrat_ExtraBold/stylesheet.css");
+
+.container.b{
+	align-items: flex-start;
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wrap-contact{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding:10px 50px;
+	padding-bottom:30px;
+}
+
+.box{
+    padding: 50px;
+	height:250px;
+}
+
+.header{
+    width: 100%;
+    font-family: "Aileron Heavy";
+    color: #3e3e3e;
+    font-size: xx-large;
+    border-bottom-style: solid;
+    border-bottom-color: #B0B0B0;
+}
+
+.info-wrap{
+	padding-top:20px;
+	width:100%;
+}
+
+.line{
+	width:100%;
+}
+.icon{
+    float: left;
+    width: 3%;
+}
+
+.icon:hover{
+	transform: rotate(360deg)scale(1.3);
+}
+
+.info{
+    width: 97%;
+    float: left;
+    padding-left: 30px;
+    font-family: "Aileron Regular";
+    color: #3e3e3e;
+    font-size: medium;
+    padding-bottom: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.social{
+	padding-top:50px;
+    wrap: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.header.a{
+	text-align:center;
+	border:none;
+}
+
+/* Facebook Button Styling */
+
+
+.social-buttons{
+	text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+	padding-left:180px;
+    /*background: rgba(256,256,256,0.5);
+	-webkit-box-shadow: 0px 0px 32px -7px #8900FF;
+	 box-shadow: 0px 0px 32px -7px #8900FF;*/
+}
+  
+/* Helper class to divide the icons */
+.social-margin {
+	float:left;
+  margin-left: 100px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+.social-icon {
+  margin-bottom: 15px;
+   box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 138px;
+  border: 5px solid;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  line-height: 1px;
+  padding-top: 11px;
+  transition: all 0.5s;
+}
+.social-icon:hover {
+    transform: rotate(360deg)scale(1.3);
+  }
+ .facebook {
+    font-size: 22px;
+    padding-top: 9px;
+    border-color: #3b5998;
+    background-color: #3b5998;
+    color: #ffffff;
+    background-image: url(../icon/facebook.png);   
+	background-size:cover;
+  }
+  .facebook:hover {
+    background-color: #ffffff;
+    color: #3b5998;
+  }
+
+.instagram{
+    font-size: 22px;
+    padding-top: 9px;
+    background-color:#8840B6;
+    color: #ffffff;
+    border-color: #8840B6;
+    background-image: url(../icon/instagram.png);
+    background-size: contain;
+	background-repeat:no-repeat;
+}
+
+.instagram:hover{
+	background-color: #ffffff;
+    color:  #cb2027;
+}
+
+  /* Youtube Button Styling */
+ .youtube {
+    font-size: 22px;
+    padding-top: 9px;
+    padding-left: 0px;
+    background-color: #bb0000;
+    color: #ffffff;
+    border-color: #bb0000;
+    background-image: url(../icon/youtube.png);    
+	background-size:cover;
+  }
+  .youtube  :hover {
+    background-color: #ffffff;
+    color: #bb0000;
+  }
+
+  /* Twitter Button Styling */
+.twitter {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 2px;
+    border-color: #9ED5FF;
+    background-color: #9ED5FF;
+    color: #ffffff;
+    background-image: url(../icon/twitter.png);
+    background-size: cover;
+  }
+  .twitter:hover {
+    background-color: #ffffff;
+    color: #55acee;
+  }
+
+.socialname{
+    color: #616161;
+    font-family: "Montserrat ExtraBold";
+}
+
+.add{
+	width:100px;
+}

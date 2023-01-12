@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url("GothicA1_Black/stylesheet.css");
+@import url("GothicA1_Light/stylesheet.css");
+
+.container.b{
+    align-items: flex-start;
+    background-color: #EFEFEF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.wrap{
+	width:100%;
+	padding:50px;
+	
+}
+
+.top{
+	width:100%;
+	display:inline-block;
+}
+
+.header{
+	font-family: "Montserrat ExtraBold";	
+	font-size: 80px;
+    color: #4B4B4B;
+	width:50%;
+	float:left;
+}
+
+.img-wrap{
+	width:30%;
+	float:right;
+}
+
+.bottom{
+	width:100%;
+}
+.year{
+	width:100%;
+	display:inline-block;
+	padding-bottom:30px;
+}
+.litle-header
+{
+    display: inline;
+    font-family: "GothicA1 Black";
+    color: #FF5900;
+    border-bottom-style: solid;
+    font-size: x-large;
+}
+
+.medal-wrap{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;	
+	padding:10px 0;
+}
+
+.content{
+    font-family: "GothicA1 Light";	
+}
+
+.picture-wrap{
+	max-width:100%;
+	padding:10px 0;
+}
+
+
+.picture{
+	width:20%;
+	float:left;
+	padding-right:15px;
+}
+.picture:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}

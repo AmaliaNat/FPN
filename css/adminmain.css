@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import url("GothicA1_Light/stylesheet.css");
+@import url("GothicA1_Black/stylesheet.css");
+@import url("Museo300_Regular/stylesheet.css");
+
+
+
+.limiter{
+	width:100%;
+	margin: 0px auto;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color:#EFEFF7;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#0F0C29;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.side-top{
+    width: 100%;
+    display: block;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: x-large;
+    color: rgba(255,255,255,1.00);
+    font-family: "Museo300 Regular";
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-bottom: thin none rgba(11,67,85,1.00);
+    border-top: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-family: arimo;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    color: #FFFFFF;
+    background-color: #696B85;
+}
+
+/* Main content */
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 50px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #030627;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    background-color: #000217;
+    padding-left: 8px;
+}
+
+.dropdown-container a{
+    font-family: open-sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: medium;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.box{
+	background-color:white;
+	padding:20px 0;
+}
+
+.box-inside{
+    padding: 20px;
+    border-top: thin solid #D9D9D9;
+    border-bottom: thin solid #D9D9D9;
+}
+
+.color-square{
+	width:20px;
+	background-color:#8C52FF;
+	height:20px;
+	float:left;
+}
+
+.header{
+    margin-left: 20px;
+    font-family: "GothicA1 Light";
+    font-size: x-large;
+    padding-left: 20px;
+}
