@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="css/adminmain.css" rel="stylesheet" type="text/css">
+<link href="css/homepage.css" rel="stylesheet" type="text/css">
+<link href="../css/adminmain.css" rel="stylesheet" type="text/css">
+<link href="../css/homepage.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/arimo:n4:default;open-sans:n3:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+	<!--side navbar-------------------------------------------------------------------->
+	<div class="sidenav">
+	   <div class="side-top">ADMIN</div>
+	  <a href="adminmain.html" style="margin-top: 20px;">Dashboard</a>
+	  <button class="dropdown-btn">Pages
+		<i class="fa fa-caret-down"></i>
+	  </button>
+	  <div class="dropdown-container">
+		<a href="adminhome.html">Home</a>
+		<a href="adminau.html">About Us</a>
+		<a href="adminacademic.html">Academics</a>
+		<a href="adminevents.html">Events</a>
+		<a href="adminrnp.html">Research & Publications</a>
+		<a href="admincontact.html">Contact Us</a>
+	  </div>
+	  <a href="#contact">Log Out</a>
+	</div>
+  <script>
+	/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+	var dropdown = document.getElementsByClassName("dropdown-btn");
+	var i;
+
+	for (i = 0; i < dropdown.length; i++) {
+	  dropdown[i].addEventListener("click", function() {
+	  this.classList.toggle("active");
+	  var dropdownContent = this.nextElementSibling;
+	  if (dropdownContent.style.display === "block") {
+	  dropdownContent.style.display = "none";
+	  } else {
+	  dropdownContent.style.display = "block";
+	  }
+	  });
+	}
+	</script>
+	<!--side navbar-------------------------------------------------------------------->
+	
+	<div class="main">
+		<div class="box">
+			<div class="box-inside">
+				<table>
+					<th><div class="color-square"></div></th>
+					<th><a class="header">Homepage</a></th>
+				</table>
+			</div>
+		</div>
+		<div class="box a">
+			<div class="header">What would you like to do?</div>
+			<div class="wrap">
+				<div class="img"><img src="../image/slidehow.jpg" style="width:100%;" alt="slideshow"><br></div>
+				<a href="#" style="text-decoration: none;"><div class="l">Edit this slideshow</div></a>
+			</div>
+			<div class="wrap">
+				<div class="img"><img src="../image/welcome.jpg" style="width:100%;" alt="slideshow"><br></div>
+				<!--<a href="#" style="text-decoration: none;" onClick="display()"><div class="l">Edit words</div></a>-->
+				<div class="l">
+					<button onClick="display()">Edit Words</button>
+				</div>
+				<form method="post" action="php/delete.php">
+					<div class="welcome">
+						<input name="text" type="text" id="test" class="t-box">
+						<button type="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+			<div class="wrap">
+				<div class="img"><img src="../image/event.jpg" style="width:100%;" alt="slideshow"><br></div>
+				<a href="#" style="text-decoration: none;"><div class="l">Add/Remove Pictures</div></a>
+			</div>
+			
+		</div>
+		<script>
+			function display(){
+				document.getElementById("test").style.visibility="visible";
+			}
+		</script>
+	</div>
+</body>
+</html>
