@@ -1,0 +1,11 @@
+What the project does
+- This is the website I've help developed during my internship in Universiti Teknologi MARA (UiTM), Lendu, Melaka. This website
+is made to display the Faculty of Accountancy information. It also allows user to search the faculty's published paper and book as well as 
+the faculty's staff information. The file isnt complete as my internship period ended before this website is fully finished, thus some files are missing.
+
+
+
+Why the project is useful
+- The website helps viewer to keep up to date to the faculty's events and see the faculty's information in an easier way with just a simple few clicks.
+
+
